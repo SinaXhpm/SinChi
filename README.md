@@ -16,6 +16,7 @@ Add you userid in to Sudo.lua :)
 
 
 If the source decompile and released - Update of the future will not be published
+<br/>
 اگر این سورس دیکامپایل و منتشر شود دیگر اپدیتی نخواهد شد
 
 Tnx To:
