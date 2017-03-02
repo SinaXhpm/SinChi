@@ -3,7 +3,7 @@ A Bot Source For Seen :) (New Tg)
 
 # Install
 
-git clone https://github.com/SinaXhpm/SinChi &&
+git clone https://github.com/SinaXhpm/SinChi
 && cd SinChi
 && chmod +x tg
 && chmod +x sinchi.sh
