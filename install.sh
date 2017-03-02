@@ -32,4 +32,4 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo luarocks install lanes
  sudo luarocks install Lua-cURL
 echo Was successfully installed
-echo Run ./launch.sh
+echo Run ./sinchi.sh
