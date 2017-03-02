@@ -13,3 +13,9 @@ git clone https://github.com/SinaXhpm/SinChi
  Launch: ./sinchi.sh
 # Sudo
 Add you userid in to Sudo.lua :)
+
+If the source decompile and released - Update of the future will not be published
+اگر این سورس دیکامپایل و منتشر شود دیگر اپدیتی نخواهد شد
+
+Tnx To:
+Amir(Helpgram team)
