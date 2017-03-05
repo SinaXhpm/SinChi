@@ -15,6 +15,7 @@ Add you userid in to Sudo.lua :)
 اگر این سورس دیکامپایل و منتشر شود دیگر اپدیتی نخواهد شد
 </b>
 
+<b>By:<a href='https://telegram.me/sinaxhpm'>SinaXhpm</a><br/><br/>
 Tnx To:
 Amir(Helpgram team)
 <br/>
