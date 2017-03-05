@@ -1,5 +1,5 @@
 # SinChi
-A Bot Source For Seen :) (New Tg)
+A Bot Source For Seen  (New Tg)
 
 # Install
 <pre>
@@ -7,7 +7,7 @@ git clone https://github.com/SinaXhpm/SinChi && cd SinChi && chmod +x tg && chmo
 </pre>
  Launch: ./sinchi.sh
 # Sudo
-Add you userid in to Sudo.lua :)
+Add you userid in to Sudo.lua 
 
 
 <b>If the source decompile and released - Update of the future will not be published
