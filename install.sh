@@ -31,5 +31,6 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo luarocks install dkjson
  sudo luarocks install lanes
  sudo luarocks install Lua-cURL
+ sudo service redis-server start
 echo Was successfully installed
 echo Run ./sinchi.sh
