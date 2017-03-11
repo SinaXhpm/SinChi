@@ -16,7 +16,9 @@ Add you userid in to Sudo.lua
 </b>
 
 <b>By:<a href='https://telegram.me/sinaxhpm'>SinaXhpm</a><br/><br/>
-Tnx To:
+Tnx To:<br/>
 Amir(Helpgram team)
+<br/>
+Arman_Esf
 <br/>
 And all those who helped me in this way
