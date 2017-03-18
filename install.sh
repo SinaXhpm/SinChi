@@ -32,5 +32,11 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo luarocks install lanes
  sudo luarocks install Lua-cURL
  sudo service redis-server start
+ cd ..
+ chmod +x sinchi.sh
+ chmod +x tg
+ sudo apt-get install python-setuptools python-dev build-essential
+ sudo easy_install pip
+ sudo pip install redis
 echo Was successfully installed
 echo Run ./sinchi.sh
