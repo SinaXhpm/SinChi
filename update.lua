@@ -10,4 +10,4 @@ local fi = io.open('sudo.lua', "w+")
 fi:write(tostring(content))
 fi:close()
 os.execute('chmod 777 tg && chmod 777 sinchi.sh && chmod 777 install.sh')
-os.execute('screen ./sinchi.sh')
+
