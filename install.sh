@@ -40,4 +40,4 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo easy_install pip
  sudo pip install redis
 echo Was successfully installed
-echo Run ./sinchi.sh
+echo Run ./sinchi-0.sh
