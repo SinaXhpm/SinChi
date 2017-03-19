@@ -2,7 +2,7 @@
 while true ; do
   for entr in sinchi-*.sh ; do
     entry="${entr/.sh/}"
-    tmux kill-session -t $entry
+    ./off.sh
     rm -rf ~/.telegram-cli/$entry/data/animation/*
     rm -rf ~/.telegram-cli/$entry/data/audio/*
     rm -rf ~/.telegram-cli/$entry/data/document/*
@@ -12,9 +12,8 @@ while true ; do
     rm -rf ~/.telegram-cli/$entry/data/video/*
     rm -rf ~/.telegram-cli/$entry/data/voice/*
     rm -rf ~/.telegram-cli/$entry/data/profile_photo/*
-    tmux new-session -d -s $entry "./$entr"
-    tmux detach -s $entry
+    ./on.sh
   done
-  echo SinChi is Running!
+  echo All SinChi is Running!
   sleep 1800
 done
