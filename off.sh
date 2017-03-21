@@ -1,6 +1,6 @@
 for entr in sinchi-*.sh ; do
     entry="${entr/.sh/}"
-    killall -9 $entr
+    tmux kill-session -t $entry
   done
-   killall screen
+  
     echo 'Off!'
