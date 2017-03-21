@@ -1,5 +1,5 @@
 for entr in sinchi-*.sh ; do
     entry="${entr/.sh/}"
-    screen ./$entr
+    tmux new-session -d -s $entry "./$entr"
   done
   echo 'On!'
