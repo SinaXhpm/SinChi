@@ -37,8 +37,8 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  chmod +x tg
  chmod +x sinchi-0.sh
  chmod +x on.sh
- chmox +x off.sh
- chmox +x cleaner.sh
+ chmod +x off.sh
+ chmod +x cleaner.sh
  sudo apt-get install python-setuptools python-dev build-essential
  sudo easy_install pip
  sudo pip install redis
