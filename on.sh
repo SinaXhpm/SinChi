@@ -1,8 +1,8 @@
 #!/bin/bash
 while true ; do
+   killall tmux
 for entr in sinchi-*.sh ; do
     entry="${entr/.sh/}"
-    killall tmux
     rm -rf ~/.telegram-cli/$entry/data/animation/*
     rm -rf ~/.telegram-cli/$entry/data/audio/*
     rm -rf ~/.telegram-cli/$entry/data/document/*
