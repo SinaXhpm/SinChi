@@ -19,6 +19,8 @@ Add you userid in to Sudo.lua
 Tnx To:<br/>
 Amir(Helpgram team)
 <br/>
+Monarch
+<br/>
 Arman_Esf
 <br/>
 And all those who helped me in this way
