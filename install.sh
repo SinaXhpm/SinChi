@@ -31,13 +31,14 @@ red     "                      ****************************                     
 red     "                      ****************************                                   "
 }
 function install_Sinchi() {
- sudo apt-get update 
- sudo apt-get upgrade 
-aa  libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
- aa  lua-lgi -y
- aa  software-properties-common -y 
- sudo add-apt-repository ppa:ubuntu-toolchain-r/test  
- aa libstdc++6 -y
+ sudo apt-get update -y 
+ sudo apt-get upgrade -y
+ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
+sudo apt-get install lua-lgi -y
+sudo apt-get install software-properties-common -y
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+sudo apt-get install libstdc++6 -y
+ sudo apt-get install libstdc++6 -y
  sudo apt-get update -y
  sudo apt-get upgrade -y
  sudo apt-get dist-upgrade -y
