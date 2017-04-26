@@ -44,19 +44,18 @@ sudo apt-get install libstdc++6 -y
  sudo apt-get dist-upgrade -y
 }
 function luarocks_SinChi() {
- wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
+wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  cd luarocks-2.2.2
  ./configure; sudo make bootstrap
- bb luasocket 
- bb luasec 
- bb redis-lua 
- bb lua-term 
- bb serpent
- bb dkjson 
- bb lanes 
- bb Lua-cURL 
- sudo service redis-server start
+ sudo luarocks install luasocket
+ sudo luarocks install luasec
+ sudo luarocks install redis-lua
+ sudo luarocks install lua-term
+ sudo luarocks install serpent
+ sudo luarocks install dkjson
+ sudo luarocks install lanes
+ sudo luarocks install Lua-cURL
  cd ..
 }
 function chmod_SinChi() {
