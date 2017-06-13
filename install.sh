@@ -19,7 +19,7 @@ white "     >>>>             I wanna install it for you                      <<<
 function logo2_SinChi() {
 green "     >>>>            SinChi successfully installed                    <<<<      "
 white "     >>>>            Run this command for launch bot                  <<<<      "
-red   "     >>>>                   ./sinchi-0.sh                             <<<<      "
+red   "     >>>>                   ./sinchi.sh                             <<<<      "
 green   "                      ****************************                                  "
 green   "                      ****************************                                   "
 white   "                      ****************************                                   "
