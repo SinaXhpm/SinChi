@@ -76,6 +76,12 @@ luarocks_SinChi
 python_SinChi
 chmod_SinChi
 clear
+ chmod +x sinchi.sh
+ chmod +x tg
+ chmod +x on.sh
+ chmod +x off.sh
+ chmod +x auto.sh
+ chmod +x update.sh
  echo -n "" > sudo.lua
   read -p "What is your User Id? " -e input
  echo "sudo={111795059,$input}" >> sudo.lua
